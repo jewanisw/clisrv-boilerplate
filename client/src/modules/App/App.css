@@ -1,0 +1,49 @@
+@import "../../styles/common.css";
+@import "../../styles/index.css";
+
+.app-main {
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  height: calc(100% - 56px);
+  position: relative;
+}
+
+.drawer-open {
+  margin-left: 256px;
+}
+
+.container {
+  background: rgba(170,224,250,1);
+  height: calc(100vh - 56px);
+  width: 100%;
+  overflow: auto;
+}
+
+
+.content {
+	font-family: Roboto, sans-serif;
+  height: calc(100%);
+  padding: 5px 5px 0px 5px;
+  color: var(--darkBlack);
+}
+
+@media screen and (max-width: 599px) {
+  /* for phone only */
+  .content-body {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  /* for tablet portrait */
+
+}
+
+@media screen and (max-width: 1199px) {
+  /* for tablet landscape */
+
+}
+
+@media screen and (max-width: 1799px) {
+  /* for desktop */
+
+}

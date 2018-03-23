@@ -1,0 +1,9 @@
+{
+  "core": false,
+  "lang": {
+    "supported": {
+      "en": []
+    },
+    "default": "en"
+  }
+}

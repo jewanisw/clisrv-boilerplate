@@ -1,0 +1,25 @@
+.header-title {
+  cursor: pointer;
+}
+
+.header-title * {
+  /* line-height: 50px; */
+  vertical-align: middle;
+  color: white;
+}
+.header-icons {
+  top: -3px;
+}
+.app-header {
+  height: 56px;
+}
+
+.app-header > * {
+  top: -4px;
+}
+
+.header-title {
+  top: -6px;
+  position: relative;
+  /* font-family: Noto Sans, 'Helvetica Neue', sans-serif !important; */
+}

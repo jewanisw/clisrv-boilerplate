@@ -1,0 +1,31 @@
+
+.drawer {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.drawer .drawer-content {
+  height: calc(100% - 56px) !important;
+  margin-top: 56px;
+  overflow-x: hidden !important;
+  /* background: none !important; */
+}
+
+.drawer .profile-pic {
+  display: block !important;
+  margin: 10px auto;
+}
+
+.drawer .nav div {
+  /* Change colour of nav icons */
+  /* color: var(--steelBlue); */
+}
+
+.drawer .nav svg {
+  /* Change colour of nav icons */
+  /* fill: var(--steelBlue) !important; */
+}
+
+.drawer .nav-active > div {
+  /* Highlight colour for active link */
+  background-color: var(--kGreyLight);
+}

@@ -1,0 +1,34 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bowser": "^1.9.0",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.20.0",
+    "moment": "^2.19.3",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0",
+    "react-highcharts": "^15.0.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "socket.io-client": "^2.0.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "eslint": "eslint src",
+    "analyze": "source-map-explorer build/static/js/main.*"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "source-map-explorer": "^1.5.0"
+  }
+}
